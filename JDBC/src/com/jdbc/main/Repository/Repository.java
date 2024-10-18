@@ -6,8 +6,4 @@ public interface Repository {
 	public void updateUser(user user);
 	public user readUser(int id);
 	public void deleteUser(String id);
-	
-	
-	
-	
 }

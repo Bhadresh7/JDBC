@@ -12,7 +12,7 @@ import com.jdbc.main.Repository.Repository;
 
 public class crudOperations implements Repository{
 
-	public String url="jdbc:mysql://localhost:3306/user";
+	public String url="jdbc:mysql://localhost:3306/jdbc";
 	public String username="root";
 	public String password="bhadreshpalani";
 
@@ -106,8 +106,5 @@ public class crudOperations implements Repository{
 
 			e.printStackTrace();
 		}
-
 	}
-
-
 }
